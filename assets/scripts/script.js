@@ -11,11 +11,12 @@ let coin = {
      if (this.state = 0){
     
     
+        return heads
 
      }
      else{
 
-
+     return tails
      }
     
         /* 2. Return the string "Heads" or "Tails", depending on whether
@@ -36,14 +37,19 @@ let coin = {
 };
 
 
-let display20flips= function(){
-
+function display20flips(){
+ for (let i = 20; i > 0; i--){
+ console.log (coin.flip)
+ 
+ }
 
 
 }
 
-let display20Images = function(){
-
+function display20Images(){
+    for (let i = 20; i > 0; i--){
+        console.log (coin.flip)
+        
 
 }
 
